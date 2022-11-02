@@ -11,3 +11,11 @@ https://kubernetes.io/docs/tasks/tools/
 
 
 ### Installing
+
+Create Network VPC On GCP 
+https://www.cloudskillsboost.google/focuses/7140?parent=catalog
+
+Create Cluster Kubernetes On GCP 
+  ```
+  gcloud container clusters create my-k8s-cluster --num-nodes 2 --network vpc-k8s --zone asia-southeast1 --tags private --scopes=storage-rw,compute-ro
+  ```
