@@ -15,14 +15,14 @@ https://kubernetes.io/docs/tasks/tools/
 
 ### Connect Cluster Kubernetes
 
-   1. Download Lens install on your computer and add file k8s.config to Lens
+   Download Lens install on your computer and add file k8s.config to Lens
 
     https://k8slens.dev/
 
 
 
 
-   2. Connect Kubernetes(GKE) on Google GCP
+   or Connect Kubernetes(GKE) on Google GCP
 
 
 ### Installing on GCP Cloud
