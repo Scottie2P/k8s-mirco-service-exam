@@ -1,7 +1,6 @@
 # k8s-mirco-service-exam
 
 (https://api.codeclimate.com/v1/badges/7512a7b5c9ea8b06855c/maintainability)](https://codeclimate.com/repos/59b917fb42e2ce029e0015f8/maintainability)
-(https://circleci.com/gh/Seekster/api.svg?style=svg&circle-token=9ae970afd0c78faffb756491b02098a2627d6998)](https://circleci.com/gh/Seekster/api)
 
 
 
