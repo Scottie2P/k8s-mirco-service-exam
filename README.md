@@ -15,7 +15,14 @@ https://kubernetes.io/docs/tasks/tools/
 Create Network VPC On GCP 
 https://www.cloudskillsboost.google/focuses/7140?parent=catalog
 
+
 Create Cluster Kubernetes On GCP 
   ```
   gcloud container clusters create my-k8s-cluster --num-nodes 2 --network vpc-k8s --zone asia-southeast1 --tags private --scopes=storage-rw,compute-ro
+  ```
+
+
+Create Node Pool
+  ```
+  gcloud container node-pools create engin-pool --cluster=my-k8s-cluster --enable-autorepair --enable-blue-green-upgrade --machine-type=g1-small --enable-autoscaling --num-nodes=1  --min-nodes=1 --max-nodes=3 --max-surge-upgrade=1 --max-unavailable-upgrade=1 --spot --zone=asia-southeast1
   ```
