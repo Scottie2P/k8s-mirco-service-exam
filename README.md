@@ -10,7 +10,7 @@ https://cloud.google.com/sdk/docs/install
 https://kubernetes.io/docs/tasks/tools/
 
 
-### Installing
+### Installing on GCP Cloud
 
 Create Network VPC On GCP 
 https://www.cloudskillsboost.google/focuses/7140?parent=catalog
