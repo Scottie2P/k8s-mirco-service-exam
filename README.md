@@ -66,5 +66,19 @@ or
     docker run -it --rm -p 5000:5000 my_api
   ```
   
+  ## Run API Kubernetes 
+
+run on CLuster
+   cd k8smanifest
+ 
+ ```
+   kubectl apply --filename api-user-deployment+service.yaml
+   kubectl apply --filename api-wallet-deployment+service.yaml
+   kubectl apply --filename ingress.yaml
+   
+  ```
+
+
+  
 
 
