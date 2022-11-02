@@ -18,6 +18,7 @@ Download Lens install on your computer
 
 https://k8slens.dev/
 
+add file k8s.config to Lens
 
 
 
