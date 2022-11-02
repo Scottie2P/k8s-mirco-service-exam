@@ -9,6 +9,14 @@ I recommend `gcloud CLI` and `kubectl` manage your command environments.
 https://cloud.google.com/sdk/docs/install 
 https://kubernetes.io/docs/tasks/tools/
 
+### Connect Cluster
+Download Lens install on your computer
+
+https://k8slens.dev/
+
+
+
+
 
 ### Installing on GCP Cloud
 
