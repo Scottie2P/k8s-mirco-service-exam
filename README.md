@@ -5,4 +5,4 @@ These instructions will get you a copy of the project up and running testing and
 
 ### Prerequisites
 
-I recommend `gcloud CLI` and `kubectl` to manage your Ruby environments.
+I recommend `gcloud CLI` and `kubectl` manage your command environments.
