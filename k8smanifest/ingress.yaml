@@ -1,0 +1,41 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: network-ingress
+  namespace: api
+  annotations:
+    networking.gke.io/managed-certificates: "ruaymak99.com-tls-cert"
+    kubernetes.io/ingress.global-static-ip-name: "ingress-webapps"
+    kubernetes.io/ingress.class: "gce"
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: api-service
+            port:
+              number: 443
+      - path: /v2
+        pathType: Prefix
+        backend:
+          service:
+            name: api-2-service
+            port:
+              number: 443
+      - path: /api/v1/user
+        pathType: Prefix
+        backend:
+          service:
+            name: api-user-service
+            port:
+              number: 443            
+      - path: /api/v1/wallet
+        pathType: Prefix
+        backend:
+          service:
+            name: api-user-service
+            port:
+              number: 443     
