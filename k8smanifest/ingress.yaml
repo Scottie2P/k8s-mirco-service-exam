@@ -11,31 +11,52 @@ spec:
   rules:
   - http:
       paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: api-service
-            port:
-              number: 443
-      - path: /v2
-        pathType: Prefix
-        backend:
-          service:
-            name: api-2-service
-            port:
-              number: 443
       - path: /api/v1/user
         pathType: Prefix
         backend:
           service:
             name: api-user-service
             port:
-              number: 443            
+              number: 443     
       - path: /api/v1/wallet
         pathType: Prefix
         backend:
           service:
-            name: api-user-service
+            name: api-wallet-service
             port:
               number: 443     
+      - path: /api/testV1
+        pathType: Prefix
+        backend:
+          service:
+            name: api-service
+            port:
+              number: 443    
+      - path: /api/testV2
+        pathType: Prefix
+        backend:
+          service:
+            name: api-2-service
+            port:
+              number: 443                          
+      # - path: /api/v1/user/create
+      #   pathType: Prefix
+      #   backend:
+      #     service:
+      #       name: api-user-service
+      #       port:
+      #         number: 443     
+      # - path: /api/v1/user/delete
+      #   pathType: Prefix
+      #   backend:
+      #     service:
+      #       name: api-user-service
+      #       port:
+      #         number: 443  
+      # - path: /api/v1/user/update
+      #   pathType: Prefix
+      #   backend:
+      #     service:
+      #       name: api-user-service
+      #       port:
+      #         number: 443  
