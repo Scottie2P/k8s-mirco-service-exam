@@ -48,11 +48,13 @@ Create Node Pool
 ## Run API Docker 
 
 run on local
-cd api-user or cd api-wellet
-
+ 
+ ```
+   cd api-user or cd api-wellet
+  ```
 
   ```
-  docker build -t my_api .
+    docker build -t my_api .
   ```
   
   
