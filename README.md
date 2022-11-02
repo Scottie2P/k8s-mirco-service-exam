@@ -69,6 +69,7 @@ or
   ## Run API Kubernetes 
 
 run on CLuster
+
    cd k8smanifest
  
  ```
