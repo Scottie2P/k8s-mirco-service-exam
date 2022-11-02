@@ -70,7 +70,7 @@ or
 
 run on CLuster
 
-   cd k8smanifest
+   cd ./k8smanifest
  
  ```
    kubectl apply --filename api-user-deployment+service.yaml
