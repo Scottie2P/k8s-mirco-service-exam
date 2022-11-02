@@ -43,3 +43,22 @@ Create Node Pool
   ```
   gcloud container node-pools create engin-pool --cluster=my-k8s-cluster --enable-autorepair --enable-blue-green-upgrade --machine-type=g1-small --enable-autoscaling --num-nodes=1  --min-nodes=1 --max-nodes=3 --max-surge-upgrade=1 --max-unavailable-upgrade=1 --spot --zone=asia-southeast1
   ```
+
+
+## Run API Docker 
+
+run on local
+cd api-user or cd api-wellet
+
+
+  ```
+  docker build -t my_api .
+  ```
+  
+  
+   ```
+    docker run -it --rm -p 5000:5000 my_api
+  ```
+  
+
+
