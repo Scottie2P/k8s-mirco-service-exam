@@ -50,7 +50,11 @@ Create Node Pool
 run on local
  
  ```
-   cd api-user or cd api-wellet
+   cd api-user 
+  ```
+or
+ ```
+   cd api-wallet
   ```
 
   ```
