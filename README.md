@@ -1,9 +1,13 @@
 # k8s-mirco-service-exam
-k8s-mirco-service-exam
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/7512a7b5c9ea8b06855c/maintainability)](https://codeclimate.com/repos/59b917fb42e2ce029e0015f8/maintainability)
+[![CircleCI](https://circleci.com/gh/Seekster/api.svg?style=svg&circle-token=9ae970afd0c78faffb756491b02098a2627d6998)](https://circleci.com/gh/Seekster/api)
+
+
 
 These instructions will get you a copy of the project up and running testing and purposes. See deployment for notes on how to deploy the project on a live system.
 
-###Prerequisites
+### Prerequisites
 
 I recommend `gcloud CLI` and `kubectl` manage your command environments.
 
@@ -13,7 +17,7 @@ https://kubernetes.io/docs/tasks/tools/
 
 
 
-##Connect Cluster Kubernetes
+## Connect Cluster Kubernetes
 
    Download Lens install on your computer and add file k8s.config to Lens
 
@@ -25,7 +29,7 @@ https://kubernetes.io/docs/tasks/tools/
    or Connect Kubernetes(GKE) on Google GCP
 
 
-##Installing on GCP Cloud
+## Installing on GCP Cloud
 
   Create Network VPC On GCP 
   https://www.cloudskillsboost.google/focuses/7140?parent=catalog
