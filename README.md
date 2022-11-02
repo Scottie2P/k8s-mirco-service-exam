@@ -27,7 +27,7 @@ https://kubernetes.io/docs/tasks/tools/
    or Connect Kubernetes(GKE) on Google GCP
 
 
-## Installing on GCP Cloud
+## Installing Kubernetes on GCP Cloud
 
   Create Network VPC On GCP 
   https://www.cloudskillsboost.google/focuses/7140?parent=catalog
